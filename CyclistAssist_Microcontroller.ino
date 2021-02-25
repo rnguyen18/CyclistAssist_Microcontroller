@@ -1,8 +1,11 @@
 #include <SoftwareSerial.h>
 #include <LightController.h>
+#include <BluetoothController.h>
 
 int rxPin = 52;
 int txPin = 50;
+int frontPin = 53;
+int rearPin = 53;
 int leftPin = 51;
 int rightPin = 53;
 char sig = 0;
